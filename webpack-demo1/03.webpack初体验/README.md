@@ -17,19 +17,19 @@ npm init
    index.js -- webpack打包的入口起点文件
 5. 通过命令开始打包
   开发环境
-    ```
-    webpack ./src/index.js -o ./build/build.js --mode=development
-    ```
+  ```
+  webpack ./src/index.js -o ./build/build.js --mode=development
+  ```
   生产环境
-    ```
-    webpack ./src/index.js -o ./build/build.js --mode=production
-    ```
+  ```
+  webpack ./src/index.js -o ./build/build.js --mode=production
+  ```
 6. 运行项目
-  6.1 node命令运行项目
-   ```
-    node ./build/build.js
-   ```
-  6.2 在build文件夹下创建index.html,并引入build.js文件，<script src="./build.js"></script>， 直接在浏览器打开index.html文件
+6.1 node命令运行项目
+```
+node ./build/build.js
+```
+6.2 在build文件夹下创建index.html,并引入build.js文件，<script src="./build.js"></script>， 直接在浏览器打开index.html文件
 7. webpack可以打包js 、 json文件，不可以打包css 、img 等文件，在src下新建一个.json文件
   在src下新建一个data.json文件，index.js中用ES6引入json模块，webpack可以打包json文件
 
