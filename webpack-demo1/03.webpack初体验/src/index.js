@@ -9,6 +9,9 @@
         webpack会以 ./src/index.js 为起点开始打包,打包输出到 ./build/build.js，整体打包环境是生产环境
       打包后较开发环境不同的是 build.js 被压缩
 */
+import data from './data.json';
+console.log(data);
+
 function add(x, y) {
   return x + y;
 }
