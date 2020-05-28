@@ -4,7 +4,7 @@
 npm init
 ```
 2. 全局安装webpack和webpack-cli,webpack-cli作用是可以用webpack指令使用webpack内部的功能， 全局安装会替换到旧版
-   ```
+  ```
   npm i webpack webpack-cli -g
   ```
 3. 本地安装，将webpack添加到package.json中的开发依赖， -D 是安装开发依赖
