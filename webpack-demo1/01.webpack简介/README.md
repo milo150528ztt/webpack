@@ -4,7 +4,7 @@
 
 2.在 index.html 中引入 index.js,index.js 中 import jquery 模块(ES6语法)，
 浏览器打开页面时控制台 SyntaxError 。
-npm 命令安装 jquery 模块，在此工程目录下打开终端，执行：
+>npm 命令安装 jquery 模块，在此工程目录下打开终端，执行：
 
 ```
   npm init
