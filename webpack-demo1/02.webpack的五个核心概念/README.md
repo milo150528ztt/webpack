@@ -8,9 +8,10 @@
    比如 dist文件夹
 
 3. Loader
-   Loader让webpack能够去处理非javascript文件(webpack自身不理解javascript)，比如把less文件转为css
+   Loader让webpack能够去处理非javascript文件(webpack自身只理解javascript)。比如把less文件转为css
 
 4. Plugins
    插件(plugins)可以用于执行范围更广的任务，范围包括从打包优化和压缩，一直到重新定义环境中的变量等
 
 5. Mode
+   模式(Mode)

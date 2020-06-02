@@ -3,7 +3,7 @@
 ```
 npm init
 ```
-2. 全局安装webpack和webpack-cli,webpack-cli作用是可以用webpack指令使用webpack内部的功能， 全局安装会替换到旧版
+2. 全局安装webpack和webpack-cli,webpack-cli作用是可以用webpack指令使用webpack内部的功能， 全局安装会将旧版替换掉
   ```
   npm i webpack webpack-cli -g
   ```
