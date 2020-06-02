@@ -18,3 +18,9 @@
    webpack
    ```
 4. 在build文件夹下创建index.html，并引入./build.js， 在浏览器运行index.html
+5. 不同的文件必须配置不同的loader处理，在src下创建index.less文件，
+   less文件需要配置less-loader,css-loader,style-loader
+   编译less文件需要下载包命令：
+   ```
+   npm i less less-loader -D
+   ```
