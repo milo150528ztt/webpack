@@ -1,0 +1,28 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "webpack代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milo150528ztt/webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "bugs": {
+    "url": "https://github.com/milo150528ztt/webpack/issues"
+  },
+  "homepage": "https://github.com/milo150528ztt/webpack#readme",
+  "author": "zhangttforall@163.com",
+  "license": "ISC",
+  "devDependencies": {
+    "style-loader": "^1.2.1",
+    "css-loader": "^3.5.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

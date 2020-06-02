@@ -4,3 +4,17 @@
 
    所有构建工具都是基于node平台运行的，模块化采用commonjs模块
    src下的源码采用ES6模块化
+   结合webpack的5个核心概念编写配置文件
+2. webpack.config.js中配置了使用css-loader和style-loader,如果在当前目前中找不到包,会去上级目录中找
+3. 因此，在最外层webpack-demo1目录下安装包
+   安装包命令
+   ```
+   npm init
+   npm i webpack webpack-cli -D
+   npm i style-loader css-loader -D
+   ```
+   打包命令
+   ```
+   webpack
+   ```
+4. 在build文件夹下创建index.html，并引入./build.js， 在浏览器运行index.html
