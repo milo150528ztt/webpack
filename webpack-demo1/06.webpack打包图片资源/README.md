@@ -14,4 +14,5 @@ npm i url-loader file-loader -D
    ```
   webpack
    ```
+  # 打包html中img标签的图片暂时有一个问题不知道怎么解决
  

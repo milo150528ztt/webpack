@@ -41,7 +41,7 @@ module.exports = {
           // 处理html中的img标签的图片直接用html-loader打包时会报错,因为url-loader默认使用es6模块化解析,而html-loader引入图片是commonjs
           // 解析时会出现问题: [object Moudle]
           // 解决办法：关闭url-loader的commonjs模块化,使用es6来解析
-          esMoudle: false,
+          esModule: false,
           // 给图片进行重命名
           // [hash:10] 取hash值得前10位
           // [.ext]取文件原来扩展名
